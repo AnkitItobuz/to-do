@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(140, 121, 121, 0.809);
+}
+
+.input-text:focus {
+
+    outline: none;
+}
+
+.plus-button {
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgba(11, 11, 11, 0.421);
+}
+
+.plus-button:hover {
+    background-color:  rgb(11, 11, 11);
+    color: white;
+    cursor: pointer;
+}
+
+#task-list {
+    display: none;
+    
+
+}
+
+.box {
+    background-color: aqua;
+    width: 23rem;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.common {
+    background-color: brown;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
