@@ -7,6 +7,9 @@ body {
     outline: none;
 }
 
+.input-box {
+    width: 10rem !important;
+}
 .plus-button {
     font-size: 1rem;
     font-weight: 400;
@@ -20,7 +23,7 @@ body {
 }
 
 #task-list {
-    display: none;
+    display: none ;
     
 
 }
@@ -39,4 +42,27 @@ body {
     border-radius: 5px;
     color: white;
     cursor: pointer;
+}
+
+.line-through {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#hide {
+    display: none ;
+}
+
+.to-do-text {
+    max-width:15rem ;
+    overflow: auto;
+}
+
+.toDoList {
+    max-height: 30rem;
+    overflow: auto;
+}
+
+.remove-box {
+    opacity: 0;
 }
